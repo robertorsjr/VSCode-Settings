@@ -1,0 +1,38 @@
+{
+  // incones
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Configura tamanho e familia da font
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  // "editor.fontFamily": "JetBrains Mono",
+  // "terminal.integrated.shell.linux": "/bin/zsh",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+
+  
+   // Regras do editor
+   "editor.rulers": [100, 120],
+   "window.zoomLevel": 1,
+   "editor.minimap.enabled": false,
+   "turboConsoleLog.includeFileNameAndLineNum": false,
+   "breadcrumbs.enabled": true,
+
+  // formatar ao salvar Eslint
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+
+  // terminal gitbash no windows
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+
+ 
+}
